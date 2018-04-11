@@ -3,11 +3,10 @@
   padding-bottom: 2.5rem;
 
   @mixin atSmall {
-    padding-left: 95px;
+    padding-left: 94px;
   }
 
   &__icon {
-
     display: block;
     margin: 0 auto;
 
@@ -25,9 +24,9 @@
     text-align: center;
 
     @mixin atSmall {
-      font-size: 1.875rem;
-      margin-top: 1em;
       text-align: left;
+      margin-top: 1em;
+      font-size: 1.875rem;
     }
   }
 }

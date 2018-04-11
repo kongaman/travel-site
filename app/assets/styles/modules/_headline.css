@@ -20,7 +20,6 @@
     @mixin atSmall {
       font-size: 1.875rem;
     }
-
   }
 
   &--narrow {
@@ -31,6 +30,10 @@
 
   &--light {
     font-weight: 100;
+  }
+
+  strong {
+    font-weight: 400;
   }
 
   &--b-margin-small {
